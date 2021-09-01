@@ -258,7 +258,7 @@ a {
   margin-bottom: 9px;
 }
 .footer-all {
-  background-color: var(--secondary-text-color);
+  background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -440,27 +440,25 @@ img {
 .custumers-list {
   display: flex;
 }
-.custumers-item {
+.custumers-link {
   display: flex;
   width: 170px;
   height: 92px;
   justify-content: center;
   align-items: center;
-  border: 1px solid #afb1b8;
+  border: 1px solid;
+  border-radius: 4px;
+  color: #afb1b8;
 }
 .custumers-item:not(:last-child) {
   margin-right: 30px;
 }
 .custumers-icon {
-  fill: #afb1b8;
+  fill: currentColor;
 }
-.custumers-item:hover .custumers-icon,
-.custumers-item:focus .custumers-icon {
-  fill: var(--accent-color);
-}
-.custumers-item:hover,
-.custumers-item:focus {
-  border: 1px solid var(--accent-color);
+.custumers-link:hover,
+.custumers-link:focus {
+  color: var(--accent-color);
 }
 .footer-icon p {
   font-family: Roboto;
