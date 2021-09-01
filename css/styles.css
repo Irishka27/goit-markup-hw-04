@@ -224,6 +224,9 @@ a {
 
 .team-list {
   display: flex;
+  /* background-color: #fff; */
+}
+.team-item {
   background-color: #fff;
 }
 .team-list > li:not(last-child) {
